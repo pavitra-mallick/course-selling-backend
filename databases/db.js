@@ -2,12 +2,6 @@ const mongoose = require("mongoose");
 const { Schema } = mongoose;
 const { ObjectId } = mongoose.Types;
 
-//AXCS94Al2611TsuJ
-
-// mongoose.connect(
-//   "mongodb+srv://pavitramallick:AXCS94Al2611TsuJ@cluster0.sk72u.mongodb.net/courseApp",
-// );
-
 const userSchema = new Schema({
   email: {
     type: String,
